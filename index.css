@@ -51,7 +51,7 @@ body, html {
 }
 
 .nav-controls a {
-  color: #000000;
+  color: lightpink;
   text-decoration: none;
   padding-left: 20px;
   transition: opacity 0.2s linear;
