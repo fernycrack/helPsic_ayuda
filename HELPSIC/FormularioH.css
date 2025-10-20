@@ -165,7 +165,7 @@ li{
 #seccion-1-imagen {
 
  width: 100%;
-    max-width: 200px;
+    max-width: 300px;
     aspect-ratio: 1 / 1;
     object-fit: cover;
     border-radius: 12px;
@@ -334,4 +334,5 @@ border-style: groove;
 
 
 }
+
 
