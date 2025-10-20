@@ -1,279 +1,232 @@
-<!DOCTYPE html><!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ConMente | Consejos</title>
-    <link rel="stylesheet" href="FormularioH.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ConMente | Consejos</title>
+  <link rel="stylesheet" href="FormularioH.css" />
 </head>
 <body>
-    <div class="nav-container solid-nav">
-        <div class="nav-row">
-            <div class="nav-logo">
-                <a href="../index.html"><img src="/imagenes/logo-chico.png" alt="Logo HELPSIC"></a>
-            </div>
-            <div class="nav-controls">
-                <a href="../index.html">Inicio</a>
-                <a href="info.html">Informacion</a>
-                <a href="foros.html">Foros</a>
-                <a href="consejos.html">Consejos</a>
-            </div>
-        </div>
+  <div class="nav-container solid-nav">
+    <div class="nav-row">
+      <div class="nav-logo">
+        <a href="../index.html"><img src="imagenes/logo-chico.png" alt="Logo HELPSIC"></a>
+      </div>
+      <div class="nav-controls">
+        <a href="../index.html">Inicio</a>
+        <a href="info.html">Informacion</a>
+        <a href="foros.html">Foros</a>
+        <a href="consejos.html">Consejos</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="seccion-hero">
+    <img class="fondo" src="imagenes/test-evaluar-depresion.jpg" alt="Fondo">
+    <div class="principal">
+      <h1>AUTO-TEST</h1>
+      <p>Haz un pequeño test, para tener una nocion de cómo te encuentras</p>
+    </div>
+  </div>
+
+  <div class="seccion-1">
+    <div class="seccion-1-texto">
+      <h2>¿De qué va el test?</h2>
+      <p>Sobre el como te sientes ante diversas situaciones, y el cúmulo de ellas que impacta en tu bienestar.</p>
     </div>
 
-    <div class="seccion-hero">
-        <img class="fondo" src="/imagenes/test-evaluar-depresion.jpg" alt="Fondo">
-        <div class="principal">
-            <h1>AUTO-TEST</h1>
-            <p>Haz un pequeño test, para tener una nocion de cómo te encuentras</p>
+    <div class="seccion-1-imagen">
+      <img src="imagenes/testt.jpg" alt="Imagen de apoyo">
+    </div>
+  </div>
+
+  <div class="seccion-2" style="background-color: #98F5BF;">
+    <div class="seccion-2-imagen">
+      <img src="imagenes/manosos.jpg" alt="Imagen ilustrativa">
+    </div>
+    <div class="seccion-2-texto">
+      <h2>El test tiene un total de 10 preguntas</h2>
+      <h3>al final te daremos el resultado de sumatorias.</h3>
+    </div>
+  </div>
+
+  <div class="seccion-1">
+    <div class="seccion-1-texto">
+      <h2>Test</h2>
+
+      <form id="formSalud">
+        <!-- Pregunta 1 -->
+        <div class="seccion-4" style="background-color: #E6EDEA;">
+          <ul>
+            <li>1. ¿Qué tan triste te has sentido últimamente?</li>
+          </ul>
+          <div class="opciones">
+            <label><input type="radio" name="p1" value="1"> Nada</label>
+            <label><input type="radio" name="p1" value="2"> Poco</label>
+            <label><input type="radio" name="p1" value="3"> Bastante</label>
+            <label><input type="radio" name="p1" value="4"> Demasiado</label>
+          </div>
         </div>
+
+        <!-- Pregunta 2 -->
+        <div class="seccion-5" style="background-color: #CCE3D8;">
+          <ul>
+            <li>2. ¿Sientes que puedes concentrarte fácilmente?</li>
+          </ul>
+          <div class="opciones">
+            <label><input type="radio" name="p2" value="4"> Nunca</label>
+            <label><input type="radio" name="p2" value="3"> A veces</label>
+            <label><input type="radio" name="p2" value="2"> Casi siempre</label>
+            <label><input type="radio" name="p2" value="1"> Siempre</label>
+          </div>
+        </div>
+
+        <!-- Pregunta 3 -->
+        <div class="seccion-4" style="background-color: #E6EDEA;">
+          <ul>
+            <li>3. ¿Has sentido ansiedad o nerviosismo últimamente?</li>
+          </ul>
+          <div class="opciones">
+            <label><input type="radio" name="p3" value="1"> Nunca</label>
+            <label><input type="radio" name="p3" value="2"> A veces</label>
+            <label><input type="radio" name="p3" value="3"> Casi siempre</label>
+            <label><input type="radio" name="p3" value="4"> Siempre</label>
+          </div>
+        </div>
+
+        <!-- Pregunta 4 -->
+        <div class="seccion-5" style="background-color: #CCE3D8;">
+          <ul>
+            <li>4. ¿Te sientes desmotivado para realizar tus actividades diarias?</li>
+          </ul>
+          <div class="opciones">
+            <label><input type="radio" name="p4" value="1"> Nunca</label>
+            <label><input type="radio" name="p4" value="2"> A veces</label>
+            <label><input type="radio" name="p4" value="3"> Casi siempre</label>
+            <label><input type="radio" name="p4" value="4"> Siempre</label>
+          </div>
+        </div>
+
+        <!-- Pregunta 5 -->
+        <div class="seccion-4" style="background-color: #E6EDEA;">
+          <ul>
+            <li>5. ¿Te has sentido cansado sin razón aparente?</li>
+          </ul>
+          <div class="opciones">
+            <label><input type="radio" name="p5" value="1"> Nunca</label>
+            <label><input type="radio" name="p5" value="2"> A veces</label>
+            <label><input type="radio" name="p5" value="3"> Casi siempre</label>
+            <label><input type="radio" name="p5" value="4"> Siempre</label>
+          </div>
+        </div>
+
+        <!-- Pregunta 6 -->
+        <div class="seccion-5" style="background-color: #CCE3D8;">
+          <ul>
+            <li>6. ¿Has tenido problemas para dormir?</li>
+          </ul>
+          <div class="opciones">
+            <label><input type="radio" name="p6" value="1"> Nunca</label>
+            <label><input type="radio" name="p6" value="2"> A veces</label>
+            <label><input type="radio" name="p6" value="3"> Casi siempre</label>
+            <label><input type="radio" name="p6" value="4"> Siempre</label>
+          </div>
+        </div>
+
+        <!-- Pregunta 7 -->
+        <div class="seccion-4" style="background-color: #E6EDEA;">
+          <ul>
+            <li>7. ¿Te has sentido irritado o frustrado sin motivo claro?</li>
+          </ul>
+          <div class="opciones">
+            <label><input type="radio" name="p7" value="1"> Nunca</label>
+            <label><input type="radio" name="p7" value="2"> A veces</label>
+            <label><input type="radio" name="p7" value="3"> Casi siempre</label>
+            <label><input type="radio" name="p7" value="4"> Siempre</label>
+          </div>
+        </div>
+
+        <!-- Pregunta 8 -->
+        <div class="seccion-5" style="background-color: #CCE3D8;">
+          <ul>
+            <li>8. ¿Te sientes acompañado por tus amigos o familia?</li>
+          </ul>
+          <div class="opciones">
+            <label><input type="radio" name="p8" value="4"> Nunca</label>
+            <label><input type="radio" name="p8" value="3"> A veces</label>
+            <label><input type="radio" name="p8" value="2"> Casi siempre</label>
+            <label><input type="radio" name="p8" value="1"> Siempre</label>
+          </div>
+        </div>
+
+        <!-- Pregunta 9 -->
+        <div class="seccion-4" style="background-color: #E6EDEA;">
+          <ul>
+            <li>9. ¿Has sentido que pierdes el control de tus emociones?</li>
+          </ul>
+          <div class="opciones">
+            <label><input type="radio" name="p9" value="1"> Nunca</label>
+            <label><input type="radio" name="p9" value="2"> A veces</label>
+            <label><input type="radio" name="p9" value="3"> Casi siempre</label>
+            <label><input type="radio" name="p9" value="4"> Siempre</label>
+          </div>
+        </div>
+
+        <!-- Pregunta 10 -->
+        <div class="seccion-5" style="background-color: #CCE3D8;">
+          <ul>
+            <li>10. ¿Sientes que puedes hablar con alguien sobre lo que sientes?</li>
+          </ul>
+          <div class="opciones">
+            <label><input type="radio" name="p10" value="4"> Nunca</label>
+            <label><input type="radio" name="p10" value="3"> A veces</label>
+            <label><input type="radio" name="p10" value="2"> Casi siempre</label>
+            <label><input type="radio" name="p10" value="1"> Siempre</label>
+          </div>
+        </div>
+
+        <div>
+          <button class="botoncito" type="button" onclick="calcularResultado()">Enviar</button>
+        </div>
+
+        <p id="resultado"></p>
+      </form>
     </div>
 
-    <div class="seccion-1">
-        <div class="seccion-1-texto">
-            <h2>¿De qué va el test?</h2>
-            <p>
-               Sobre el como te sientes ante diversas situaciones, y el cumulo de ellas que impacta en tu bienestar.
-            </p>
-        </div>
-        <div class="seccion-1-imagen">
-            <img src="/imagenes/testt.jpg" alt="Imagen de apoyo">
-        </div>
+    <div class="seccion-1-imagen">
+      <img src="imagenes/testt.jpg" alt="Imagen de apoyo">
+      <img src="imagenes/fotito.jpg" alt="Imagen de apoyo">
+      <img src="imagenes/lugarformm.jpg" alt="Imagen de apoyo">
     </div>
+  </div>
 
-    <div class="seccion-2" style="background-color: #98F5BF;">
-        <div class="seccion-2-imagen">
-            <img src="/imagenes/manosos.jpg" alt="Imagen ilustrativa">
-        </div>
-        <div class="seccion-2-texto">
-            <h2>El test tiene un total de 10 preguntas</h2>
-            <h3>al final te daremos el resultado de sumatorias.</h3>
-        </div>
+  <div class="seccion-3">
+    <div class="columna columna-1">
+      <h2>¡Recuerda esto!</h2>
+      <p>No estás solo. Cada paso que das para mejorar tu bienestar es valioso. Estamos aquí para acompañarte.</p>
     </div>
+    <div class="columna columna-2">
+      <h2>¿Cómo podemos ayudarte?</h2>
+      <p>Si necesitas hablar con alguien de forma anónima, no dudes en entrar a nuestro CHAT. Es un espacio seguro donde puedes expresarte sin miedo.</p>
+    </div>
+  </div>
 
-    <div class="seccion-1">
-       
-        
-        <div class="seccion-1-texto">
-            <h2>Test</h2> 
-                       <form id="formSalud">
+  <div class="footer">
+    <div class="footer-column">
+      <p><strong>Dirección:</strong> Cecytes Granados</p>
+      <p><strong>Teléfono:</strong> 634 109 4276</p>
+    </div>
+    <div class="footer-column footer-center">
+      <p>Este proyecto está dedicado a quienes buscan un espacio para expresarse y sanar.</p>
+    </div>
+    <div class="footer-column">
+      <p>2025 HELPSIC @base</p>
+      <p>Todos los derechos reservados.</p>
+    </div>
+  </div>
 
-
-                       
-                    <div class="seccion-4" style="background-color: #E6EDEA;">
-            <ul>
-                <li>1. ¿Que tan triste te has sentido ultimamente?</li>
-
-                <div class="opciones">
-        <label><input type="radio" name="p1" value="1"> Nada</label>
-        <label><input type="radio" name="p1" value="2"> Poco</label>
-        <label><input type="radio" name="p1" value="3"> Bastante</label>
-        <label><input type="radio" name="p1" value="4"> Demasiado</label>
-      </div></ul></div>
-
-
-
-
-
-<div class="seccion-5" style="background-color: #CCE3D8;">
-               <ul> <li>¿Sientes que puedes concentrarte fácilmente?</li>
-<div class="opciones">
-        <label><input type="radio" name="p2" value="4"> Nunca</label>
-        <label><input type="radio" name="p2" value="3"> A veces</label>
-        <label><input type="radio" name="p2" value="2"> Casi siempre</label>
-        <label><input type="radio" name="p2" value="1"> Siempre</label>
-      </div>
-</ul></div>     
-
-
-<div class="seccion-4" style="background-color: #E6EDEA;">
-
-
-<ul>
-           <li>3. ¿Has sentido ansiedad o nerviosismo últimamente?</li>
-<div class="opciones">
-        <label><input type="radio" name="p3" value="1"> Nunca</label>
-        <label><input type="radio" name="p3" value="2"> A veces</label>
-        <label><input type="radio" name="p3" value="3"> Casi siempre</label>
-        <label><input type="radio" name="p3" value="4"> Siempre</label>
-      </div></ul>
-</div>
-
-<div class="seccion-5" style="background-color: #CCE3D8;">
-
-<ul>       <li>4. ¿Te sientes desmotivado para realizar tus actividades diarias?</li>
-<div class="opciones">
-        <label><input type="radio" name="p4" value="1"> Nunca</label>
-        <label><input type="radio" name="p4" value="2"> A veces</label>
-        <label><input type="radio" name="p4" value="3"> Casi siempre</label>
-        <label><input type="radio" name="p4" value="4"> Siempre</label>
-      </div>
-
-</ul>
-</div>
-
-<div class="seccion-4" style="background-color: #E6EDEA;">
-
-<ul>
-
-                <li>5. ¿Te has sentido cansado sin razón aparente?</li>
-<div class="opciones">
-        <label><input type="radio" name="p5" value="1"> Nunca</label>
-        <label><input type="radio" name="p5" value="2"> A veces</label>
-        <label><input type="radio" name="p5" value="3"> Casi siempre</label>
-        <label><input type="radio" name="p5" value="4"> Siempre</label>
-      </div>
-<ul></div>
-
-<div class="seccion-5" style="background-color: #CCE3D8;">
-
-<ul>
-
-
-                 <li>6. ¿Has tenido problemas para dormir?</li>
-<div class="opciones">
-        <label><input type="radio" name="p6" value="1"> Nunca</label>
-        <label><input type="radio" name="p6" value="2"> A veces</label>
-        <label><input type="radio" name="p6" value="3"> Casi siempre</label>
-        <label><input type="radio" name="p6" value="4"> Siempre</label>
-      </div>
-
-</ul>
-</div>
-
-<div class="seccion-4" style="background-color: #E6EDEA;">
-
-<ul>
-                  <li>7. ¿Te has sentido irritado o frustrado sin motivo claro?</li>
-<div class="opciones">
-        <label><input type="radio" name="p7" value="1"> Nunca</label>
-        <label><input type="radio" name="p7" value="2"> A veces</label>
-        <label><input type="radio" name="p7" value="3"> Casi siempre</label>
-        <label><input type="radio" name="p7" value="4"> Siempre</label>
-      </div>
-</ul>
-</div>
-
-<div class="seccion-5" style="background-color: #CCE3D8;">
-
-<ul>
-
-
-                   <li>8. ¿Te sientes acompañado por tus amigos o familia?</li>
-<div class="opciones">
-        <label><input type="radio" name="p8" value="4"> Nunca</label>
-        <label><input type="radio" name="p8" value="3"> A veces</label>
-        <label><input type="radio" name="p8" value="2"> Casi siempre</label>
-        <label><input type="radio" name="p8" value="1"> Siempre</label>
-      </div>
-
-</ul>
-</div>
-
-<div class="seccion-4" style="background-color: #E6EDEA;">
-
-<ul>
-                    <li>9. ¿Has sentido que pierdes el control de tus emociones?</li>
-<div class="opciones">
-        <label><input type="radio" name="p9" value="1"> Nunca</label>
-        <label><input type="radio" name="p9" value="2"> A veces</label>
-        <label><input type="radio" name="p9" value="3"> Casi siempre</label>
-        <label><input type="radio" name="p9" value="4"> Siempre</label>
-      </div>
-
-</ul>
-</div>
-
-<div class="seccion-5" style="background-color: #CCE3D8;">
-
-<ul>
-
-
-                     <li>10. ¿Sientes que puedes hablar con alguien sobre lo que sientes?</li>
-<div class="opciones">
-        <label><input type="radio" name="p10" value="4"> Nunca</label>
-        <label><input type="radio" name="p10" value="3"> A veces</label>
-        <label><input type="radio" name="p10" value="2"> Casi siempre</label>
-        <label><input type="radio" name="p10" value="1"> Siempre</label>
-      </div>
-</ul>
-</div>
-
-
-       <button class="botoncito" type="button" onclick="calcularResultado()">Enviar</button>
- 
-
-  <p id="resultado"></p>
-</center>
-  <!-- Enlace al archivo JS -->
   <script src="formulario.js"></script>
- </form>
- 
-
-            </ul>
-        </div>
-         <div class="seccion-1-imagen">
-            <img src="/imagenes/testt.jpg" alt="Imagen de apoyo">
-       
-
-                          
-            <img src="/imagenes/fotito.jpg" alt="Imagen de apoyo">
-        
-
-                         
-            <img src="/imagenes/lugarformm.jpg" alt="Imagen de apoyo">
-        </div>
-
-                           
-    </div>
-
-    <div class="seccion-3">
-        <div class="columna columna-1">
-            <h2>¡Recuerda esto!</h2>
-            <p>No estás solo. Cada paso que das para mejorar tu bienestar es valioso. Estamos aquí para acompañarte.</p>
-        </div>
-        <div class="columna columna-2">
-            <h2>¿Cómo podemos ayudarte?</h2>
-            <p>
-                Si necesitas hablar con alguien de forma anónima, no dudes en entrar a nuestro CHAT. Es un espacio seguro donde puedes expresarte sin miedo.
-            </p>
-        </div>
-    </div>
-
-    <div class="footer">
-        <div class="footer-column">
-            <p><strong>Dirección:</strong> Cecytes Granados</p>
-            <p><strong>Teléfono:</strong> 634 109 4276</p>
-        </div>
-        <div class="footer-column footer-center">
-            <p>
-                Este proyecto está dedicado a quienes buscan un espacio para expresarse y sanar. <br>
-               
-            </p>
-        </div>
-        <div class="footer-column">
-            <p>2025 HELPSIC @base</p>
-            <p>Todos los derechos reservados.</p>
-        </div>
-    </div>
-    <script src="//code.tidio.co/yarcz4ttgnc0ihtx090qp5rezezax448.js" async></script>
+  <script src="//code.tidio.co/yarcz4ttgnc0ihtx090qp5rezezax448.js" async></script>
 </body>
-
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
