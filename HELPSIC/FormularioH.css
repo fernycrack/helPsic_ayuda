@@ -162,6 +162,16 @@ li{
     box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
 
+#seccion-1-imagen {
+
+ width: 100%;
+    max-width: 200px;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
 .seccion-2 {
     display: flex;
     align-items: center;
@@ -324,3 +334,4 @@ border-style: groove;
 
 
 }
+
