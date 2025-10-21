@@ -151,12 +151,12 @@ li{
     flex-direction: column; 
     align-items: right;    
     gap: 20px;             
-    width: 100%;           
+    width: 50%;           
     margin-top: 20px;        
 }
 
 .seccion-1-imagen img {
-    width: 50%;
+    width: 100%;
     max-width: 350px;
    
     
@@ -337,6 +337,7 @@ border-style: groove;
 
 
 }
+
 
 
 
