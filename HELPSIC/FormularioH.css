@@ -231,7 +231,7 @@ li{
     align-items: center;
     justify-content: space-between;
     padding: 10px 4%;
-    margin-right: 0%;
+   
     gap: 50px;
     border-radius: 15px;
     margin-top: 40px;
@@ -337,6 +337,7 @@ border-style: groove;
 
 
 }
+
 
 
 
