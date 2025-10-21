@@ -159,7 +159,7 @@ li{
     width: 90%;
     max-width: 350px;
    
-    display: block;
+    
       height: auto; 
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.15);
@@ -337,6 +337,7 @@ border-style: groove;
 
 
 }
+
 
 
 
