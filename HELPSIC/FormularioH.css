@@ -149,7 +149,7 @@ li{
 .seccion-1-imagen {
   display: flex;          
     flex-direction: column; 
-    align-items: right;    
+    align-items: center;    
     gap: 20px;             
     width: 50%;           
     margin-top: 20px;        
@@ -337,6 +337,7 @@ border-style: groove;
 
 
 }
+
 
 
 
