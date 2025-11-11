@@ -232,7 +232,11 @@ li{
     align-items: center;
     justify-content: space-between;
     padding: 50px 4%;
-   
+
+    padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+    
     gap: 19px;
     border-radius: 15px;
     margin-top: 40px;
@@ -248,8 +252,12 @@ li{
      flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    padding: 50px 4%;
-    margin-top: 40px;
+    
+
+padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+    
     gap: 19px;
     border-radius: 15px;
      border-top: 0px;
@@ -333,12 +341,40 @@ border-color: #63A69D;
 border-style: groove;
 
 }
+.opciones {
+  display: flex;
+  flex-wrap: wrap; /* por si la pantalla es pequeña */
+  gap: 20px; /* espacio entre opciones */
+  justify-content: center; /* centra las opciones horizontalmente */
+  align-items: center;
+  margin-top: 10px;
+}
+.opciones label {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 5px 10px;
+  transition: background 0.3s;
+  cursor: pointer;
+}
+.opciones label:hover {
+  background-color: #dff3e4;
+}
+
+/* Aumentar tamaño de los radios para mejor accesibilidad */
+.opciones input[type="radio"] {
+  transform: scale(1.2);
+  cursor: pointer;
+}
 
 #linea {
    
 
 
 }
+
 
 
 
