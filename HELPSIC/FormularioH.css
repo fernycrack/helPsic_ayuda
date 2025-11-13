@@ -254,7 +254,7 @@ width: 38%;
 
 .seccion-5 {
      display: flex;
-     width: 38%
+     width: 38%;
     align-items: center;
     justify-content: space-between;
     
@@ -380,6 +380,7 @@ border-style: groove;
 
 
 }
+
 
 
 
