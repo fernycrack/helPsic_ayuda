@@ -13,7 +13,7 @@ body, html {
 }
 
 .lotar {
-float: left;
+float: right;
 }
 
 li{
@@ -380,6 +380,7 @@ border-style: groove;
 
 
 }
+
 
 
 
