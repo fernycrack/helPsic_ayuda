@@ -12,6 +12,10 @@ body, html {
     scroll-behavior: smooth;
 }
 
+.lotar {
+float: left;
+}
+
 li{
      margin-bottom: 20px; 
 }
@@ -376,6 +380,7 @@ border-style: groove;
 
 
 }
+
 
 
 
