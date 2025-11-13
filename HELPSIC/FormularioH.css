@@ -237,7 +237,7 @@ li{
     align-items: center;
     justify-content: space-between;
    
-width: 38%;
+width: 40%;
     padding: 15px;
   margin-bottom: 10px;
   border-radius: 8px;
@@ -254,11 +254,11 @@ width: 38%;
 
 .seccion-5 {
      display: flex;
-     width: 38%;
+     width: 40%;
     align-items: center;
     justify-content: space-between;
     
- float: left;
+ 
     
 padding: 15px;
   margin-bottom: 10px;
@@ -380,6 +380,7 @@ border-style: groove;
 
 
 }
+
 
 
 
