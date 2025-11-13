@@ -236,7 +236,7 @@ li{
     padding: 15px;
   margin-bottom: 10px;
   border-radius: 8px;
-    
+    float: right;
     gap: 19px;
     border-radius: 15px;
     margin-top: 40px;
@@ -253,7 +253,8 @@ li{
     align-items: center;
     justify-content: space-between;
     
-
+ float: left;
+    
 padding: 15px;
   margin-bottom: 10px;
   border-radius: 8px;
@@ -374,6 +375,7 @@ border-style: groove;
 
 
 }
+
 
 
 
