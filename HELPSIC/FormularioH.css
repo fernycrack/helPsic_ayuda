@@ -263,7 +263,7 @@ li{
 padding: 15px;
   margin-bottom: 10px;
   border-radius: 8px;
-    float: right;
+    float: left;
     gap: 19px;
     border-radius: 15px;
     margin-top: 40px;
@@ -381,6 +381,7 @@ border-style: groove;
 
 
 }
+
 
 
 
