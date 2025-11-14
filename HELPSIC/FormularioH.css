@@ -283,11 +283,13 @@ padding: 15px;
 }
 
 .alone {
+    padding: 15px;
  width: 48.5%;
     display: inline-block;  
     align-items: center;
     justify-content: space-between;
-
+  margin-bottom: 10px;
+    margin-top: 40px;
  float: none;               /* quitar float para poder centrar */
       
     
@@ -415,6 +417,7 @@ border-style: groove;
 
 
 }
+
 
 
 
