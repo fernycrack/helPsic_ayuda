@@ -20,9 +20,10 @@ function calcularResultado() {
   } else if (total > 16 && total <= 29) {
     mensaje = "Necesita apoyo, necesidad moderada";
   } else {
-    mensaje = "Acercate, te ayudamos";
+    mensaje = "Apoyo crucial, contáctanos";
   }
 
   document.getElementById("resultado").textContent = `Puntos: ${total} - ${mensaje}`;
 }
+
 
