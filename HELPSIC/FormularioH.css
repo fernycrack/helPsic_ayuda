@@ -372,10 +372,11 @@ padding: 15px;
     padding: 15px 30px 15px;
     margin: 40px;
     color: white;
-    margin-left: 200px;
+   
     border-radius: 30px;
     border-top: 0px;
     border-right: 0px;
+     display: inline-block;  
 }
 
 #resultado {
@@ -417,6 +418,7 @@ border-style: groove;
 
 
 }
+
 
 
 
