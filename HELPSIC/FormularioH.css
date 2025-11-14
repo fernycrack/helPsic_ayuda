@@ -233,7 +233,7 @@ li{
 
 .seccion-4 {
      display: flex;
- width: 49%;
+ width: 50%;
     align-items: center;
     justify-content: space-between;
    
@@ -254,7 +254,7 @@ li{
 
 .seccion-5 {
      display: flex;
-     width: 49%;
+     width: 50%
     align-items: center;
     justify-content: space-between;
     
@@ -381,6 +381,7 @@ border-style: groove;
 
 
 }
+
 
 
 
