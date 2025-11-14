@@ -277,22 +277,12 @@ padding: 15px;
  width: 48.5%;
     align-items: center;
     justify-content: space-between;
-    
-
-
   position: fixed;  
- 
-  
   transform: translate(-50%, -50%); 
- 
- 
-
-
-    
-padding: 15px;
+ padding: 15px;
   margin-bottom: 10px;
   border-radius: 8px;
-    
+    float: inherit;
     gap: 19px;
     border-radius: 15px;
     margin-top: 40px;
@@ -411,6 +401,7 @@ border-style: groove;
 
 
 }
+
 
 
 
