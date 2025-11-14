@@ -291,7 +291,7 @@ padding: 15px;
  float: none;               /* quitar float para poder centrar */
       
     
-  transform: translate(-50%, -50%); 
+
 
 
   border-radius: 8px;
@@ -415,6 +415,7 @@ border-style: groove;
 
 
 }
+
 
 
 
