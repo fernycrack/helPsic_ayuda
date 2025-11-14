@@ -422,11 +422,13 @@ border-style: groove;
 .zoom {
   display: inline-block;   
   transition: transform 0.3s ease;
+     transition: opacity 0.2s linear;
 }
 
 .zoom:hover {
   transform: scale(1.1);
 }
+
 
 
 
