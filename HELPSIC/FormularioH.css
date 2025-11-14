@@ -385,7 +385,10 @@ border-color: #63A69D;
 border-style: groove;
     text-align: center;
     width: 48%;
-    display: block;
+    display: inline-block;
+
+      align-items: center;
+    justify-content: space-between;
 
 }
 .opciones {
@@ -421,6 +424,7 @@ border-style: groove;
 
 
 }
+
 
 
 
