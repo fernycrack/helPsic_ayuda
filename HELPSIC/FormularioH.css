@@ -385,7 +385,7 @@ border-color: #63A69D;
 border-style: groove;
     text-align: center;
     width: 48%;
-    display: inline-block;
+    display: block;
 
 }
 .opciones {
@@ -421,6 +421,7 @@ border-style: groove;
 
 
 }
+
 
 
 
