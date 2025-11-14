@@ -273,7 +273,7 @@ padding: 15px;
     border-color:darkgray;
 }
 
-alone {
+.alone {
  width: 48.5%;
     align-items: center;
     justify-content: space-between;
@@ -411,6 +411,7 @@ border-style: groove;
 
 
 }
+
 
 
 
