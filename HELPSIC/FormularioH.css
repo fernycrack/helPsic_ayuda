@@ -278,7 +278,16 @@ alone {
     align-items: center;
     justify-content: space-between;
     
+
+
+  position: fixed;  
  
+  
+  transform: translate(-50%, -50%); 
+ 
+ 
+
+
     
 padding: 15px;
   margin-bottom: 10px;
@@ -402,6 +411,7 @@ border-style: groove;
 
 
 }
+
 
 
 
