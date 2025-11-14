@@ -273,6 +273,27 @@ padding: 15px;
     border-color:darkgray;
 }
 
+alone {
+ width: 48.5%;
+    align-items: center;
+    justify-content: space-between;
+    
+ 
+    
+padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+    float: center;
+    gap: 19px;
+    border-radius: 15px;
+    margin-top: 40px;
+     border-top: 0px;
+    border-right: 0px;
+    border-style: solid;
+    border-color:darkgray;
+}
+}
+
 .columna {
     flex: 1;
     padding: 40px;
@@ -381,6 +402,7 @@ border-style: groove;
 
 
 }
+
 
 
 
