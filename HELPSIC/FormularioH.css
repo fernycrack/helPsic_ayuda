@@ -419,11 +419,15 @@ border-style: groove;
   cursor: pointer;
 }
 
-#linea {
-   
-
-
+.zoom {
+  display: inline-block;   
+  transition: transform 0.3s ease;
 }
+
+.zoom:hover {
+  transform: scale(1.1);
+}
+
 
 
 
