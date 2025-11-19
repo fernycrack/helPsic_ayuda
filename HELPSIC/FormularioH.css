@@ -233,7 +233,7 @@ li{
 
 .seccion-4 {
      
- width: 48.5%;
+ width: 47.5%;
     align-items: center;
     justify-content: space-between;
    
@@ -254,7 +254,7 @@ li{
 
 .seccion-5 {
    
-     width: 48.5%;
+     width: 47.5%;
     align-items: center;
     justify-content: space-between;
     
@@ -428,6 +428,7 @@ border-style: groove;
 .zoom:hover {
   transform: scale(1.1);
 }
+
 
 
 
