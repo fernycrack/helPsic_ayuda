@@ -378,9 +378,10 @@ padding: 15px;
     border-right: 0px;
        
 
-     display: inline-block;   
+     display: block;   
   transition: transform 0.3s ease;
      transition: opacity 0.2s linear;
+    transform: scale(1.1);
 }
 
 #resultado {
@@ -432,6 +433,7 @@ border-style: groove;
 .zoom:hover {
   transform: scale(1.1);
 }
+
 
 
 
