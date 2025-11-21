@@ -152,55 +152,225 @@ body, html {
 }
 
 .seccion-2 {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 80px 8%;
-    gap: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px 10%;
+  background-color: #f5f5f5;
+  gap: 40px;
 }
 
 .seccion-2-texto {
-    flex: 1;
-    max-width: 600px;
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
+  flex: 1;
+  max-width: 600px;
 }
 
 .seccion-2-texto h2 {
-    font-size: 2rem;
-    color: #333;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
 }
 
-.seccion-2-texto ol {
-    padding-left: 20px;
-    font-size: 1.2rem;
-    line-height: 1.8;
-    color: #555;
-}
-
-.seccion-2-texto ol li {
-    margin-bottom: 10px;
+.seccion-2-texto p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #555;
 }
 
 .seccion-2-imagen {
-    flex: 1;
-    display: flex;
-    justify-content: center;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .seccion-2-imagen img {
-    width: 600px;
-    object-fit: fit;
-    border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  width: 100%;
+  max-width: 350px;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
 
 .seccion-3 {
-    display: flex;
-    justify-content: center;
-    padding: 80px 10%;
-    background-color: #f5f5f5;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px 10%;
+  background-color: #f5f5f5;
+  gap: 40px;
+}
+
+.seccion-3-texto {
+  flex: 1;
+  max-width: 600px;
+}
+
+.seccion-3-texto h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.seccion-3-texto p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #555;
+}
+
+.seccion-3-imagen {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.seccion-3-imagen img {
+  width: 430px;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.seccion-4 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px 8%;
+  background-color: #98F5BF;
+  gap: 50px;
+}
+
+.seccion-4-texto {
+  flex: 1;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.seccion-4-texto h2 {
+  font-size: 2rem;
+  color: #333;
+}
+
+.seccion-4-texto h4 {
+  font-size: 1.4rem;
+  color: #333;
+  line-height: 1.8;
+}
+
+.seccion-4-texto ol {
+  padding-left: 20px;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: #555;
+}
+
+.seccion-4-texto ol li {
+  margin-bottom: 10px;
+}
+
+
+
+.seccion-4-imagen {
+  flex: 1;
+  display: flex;
+}
+
+.seccion-4-imagen img {
+  width: 600px;
+  object-fit: fit;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+
+.seccion-5 {
+  display: flex;
+  gap: 20px;
+  padding: 80px 10%;
+}
+
+.columna {
+  flex: 1;
+  padding: 40px;
+  border-radius: 12px;
+  color: white;
+}
+
+.columna-1 {
+  background-color: #71d89c;
+}
+
+.columna-2 {
+  background-color: #339966;
+}
+
+.columna h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.columna p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+.seccion-6 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px 8%;
+  background-color: #98F5BF;
+  gap: 50px;
+}
+
+.seccion-6-texto {
+  flex: 1;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.seccion-6-texto h2 {
+  font-size: 2rem;
+  color: #333;
+}
+
+.seccion-6-texto h4 {
+  font-size: 1.4rem;
+  color: #333;
+  line-height: 1.8;
+}
+
+.seccion-6-texto ul {
+	list-style: none;
+  padding-left: 20px;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  
+}
+
+.seccion-6-texto ul li a {
+  margin-bottom: 10px;
+	text-decoration: none;
+	color: #339966;
+}
+
+.seccion-6-imagen {
+  flex: 1;
+  display: flex;
+}
+
+.seccion-6-imagen img {
+  width: 600px;
+  object-fit: fit;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
 
 .forum-item {
